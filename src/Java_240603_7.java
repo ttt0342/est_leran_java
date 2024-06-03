@@ -1,4 +1,4 @@
-public class Java_340603_7 {
+public class Java_240603_7 {
   public static void main(String[] args) {
 
     int data = 10;

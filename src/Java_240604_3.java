@@ -19,11 +19,11 @@ public class Java_240604_3 {
     //    }
 
     //   // 구구단 1단-9단 출력하기
-    //    for (int i = 1; i <= 9; i++){
-    //      for (int x = 1; x <= 9; x++){
-    //        System.out.println(i + "*" + x + "=" + (i*x));
-    //      }
-    //    }
+//        for (int i = 1; i <= 9; i++){
+//          for (int x = 1; x <= 9; x++){
+//            System.out.println(i + "*" + x + "=" + (i*x));
+//          }
+//        }
 
     //    //19단부터 역방향으로 내려오도록 만들기
     //    for(int i = 19; i >= 1; i--){

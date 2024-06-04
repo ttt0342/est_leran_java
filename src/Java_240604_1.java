@@ -7,7 +7,6 @@ public class Java_240604_1 {
     //      System.out.println("현재 i의 값은 " + i); // 계속 반복
     //      i++; // 5번 실행된다. 6이 됐을 때 탈출
 
-
     // 10부터 0에 도달할 때까지 카운트다운을 출력하는 프로그램을 작성하세요.
     // **조건**:
     // 1. 시작 숫자는 10입니다.
@@ -20,7 +19,6 @@ public class Java_240604_1 {
     //      x--;
     //    }
     //    System.out.println("카운트 종료");
-
 
     //    // 1부터 주어진 양의 정수 n까지의 합을 계산하여 출력하는 코드를 while문을 사용하여 작성하세요.
     //    // 주어진 값: n = 100
@@ -57,77 +55,68 @@ public class Java_240604_1 {
     //    }
 
     // 주어진 배열에서 가장 큰 값을 찾아 출력하는 프로그램을 작성하세요.
-//    int[] numbers = {10, 5, 8, 20, 3, 15, 9, 2};
-//    int max = numbers[0];
-//    int i = 1; // 이미 max에서 0을 사용하였으므로 1번 인덱스부터 비교하기
-//
-//    while (i < numbers.length) {
-//      if (numbers[i] > max) {
-//        max = numbers[i];
-//      }
-//      i++;
-//    }
-//    System.out.println(max);
+    //    int[] numbers = {10, 5, 8, 20, 3, 15, 9, 2};
+    //    int max = numbers[0];
+    //    int i = 1; // 이미 max에서 0을 사용하였으므로 1번 인덱스부터 비교하기
+    //
+    //    while (i < numbers.length) {
+    //      if (numbers[i] > max) {
+    //        max = numbers[i];
+    //      }
+    //      i++;
+    //    }
+    //    System.out.println(max);
 
-//    public static void main(String[] args) {    예시
-//      int[] numbers = {10, 5, 8, 20, 3, 15, 9, 2};
-//
-//      int max = numbers[0];
-//      int i = 1;
-//      while(i<numbers.length){
-//        if (numbers[i] > max) {
-//          max = numbers[i];
-//        }
-//        i++;
-//      }
-//      System.out.println(max);
-//    }
+    //    public static void main(String[] args) {    예시
+    //      int[] numbers = {10, 5, 8, 20, 3, 15, 9, 2};
+    //
+    //      int max = numbers[0];
+    //      int i = 1;
+    //      while(i<numbers.length){
+    //        if (numbers[i] > max) {
+    //          max = numbers[i];
+    //        }
+    //        i++;
+    //      }
+    //      System.out.println(max);
+    //    }
 
-    //주어진 배열에서 양수의 합과 음수의 합을 각각 구하여 출력하는 프로그램을 작성하세요.
-//    int[] numbers = {4, -2, 9, -7, 5, 1, -3, 6, -1, 8};
-//    int i = 0;
-//    int positiveSum = 0;
-//    int negativeSum = 0;
-//    while (i < numbers.length){
-//      if(numbers[i]>0){
-//        positiveSum += numbers[i];
-//      }else {
-//        negativeSum += numbers[i];
-//      }
-//      i++;
-//    }
-//    System.out.println("양수 합" + positiveSum);
-//    System.out.println("음수 합" + negativeSum);
+    // 주어진 배열에서 양수의 합과 음수의 합을 각각 구하여 출력하는 프로그램을 작성하세요.
+    //    int[] numbers = {4, -2, 9, -7, 5, 1, -3, 6, -1, 8};
+    //    int i = 0;
+    //    int positiveSum = 0;
+    //    int negativeSum = 0;
+    //    while (i < numbers.length){
+    //      if(numbers[i]>0){
+    //        positiveSum += numbers[i];
+    //      }else {
+    //        negativeSum += numbers[i];
+    //      }
+    //      i++;
+    //    }
+    //    System.out.println("양수 합" + positiveSum);
+    //    System.out.println("음수 합" + negativeSum);
 
-    //코드가 길 경우 실무에서 작성하는 방법  참고
-//    int[] numbers = {4, -2, 9, -7, 5, 1, -3, 6, -1, 8};
-//    int posNum = IntStream.of(numbers).filter(num -> num > 0).sum();
-//    int neNum = IntStream.of(numbers).filter(num -> num < 0).sum();
+    // 코드가 길 경우 실무에서 작성하는 방법  참고
+    //    int[] numbers = {4, -2, 9, -7, 5, 1, -3, 6, -1, 8};
+    //    int posNum = IntStream.of(numbers).filter(num -> num > 0).sum();
+    //    int neNum = IntStream.of(numbers).filter(num -> num < 0).sum();
 
-//    public static void main(String[] args) {   예시
-//      int[] numbers = {4, -2, 9, -7, 5, 1, -3, 6, -1, 8};
-//      int positiveSum = 0;
-//      int negativeSum = 0;
-//      int i = 0;
-//      while (i < numbers.length) {
-//        if (numbers[i] > 0) {
-//          positiveSum += numbers[i];
-//        } else {
-//          negativeSum += numbers[i];
-//        }
-//        i++;
-//      }
-//      System.out.println(positiveSum);
-//      System.out.println(negativeSum);
-//    }
-    int count = 1;
-    while (true){
-      System.out.println(count);
-      count++;
-      if(count == 10000){
-        System.out.println(count);
-        break;
-      }
-    }
+    //    public static void main(String[] args) {   예시
+    //      int[] numbers = {4, -2, 9, -7, 5, 1, -3, 6, -1, 8};
+    //      int positiveSum = 0;
+    //      int negativeSum = 0;
+    //      int i = 0;
+    //      while (i < numbers.length) {
+    //        if (numbers[i] > 0) {
+    //          positiveSum += numbers[i];
+    //        } else {
+    //          negativeSum += numbers[i];
+    //        }
+    //        i++;
+    //      }
+    //      System.out.println(positiveSum);
+    //      System.out.println(negativeSum);
+    //    }
   }
 }

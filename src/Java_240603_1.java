@@ -1,37 +1,37 @@
 public class Java_240603_1 {
   public static void main(String[] args) {
-    //    int number1 = 10;
-    //    int number2 = 3;
-    //
-    //    int sum = number1 + number2; // 13
-    //    int diff1 = number1 - number2; // 7
-    //    int diff2 = number2 - number1; // -7
-    //
-    //    int product = number1 * number2;
-    //    int qout = number1 / number2;
-    //    int remainder = number1 % number2;
-    //
-    //    System.out.println("덧셈" + sum);
-    //    System.out.println("뺄셈1" + diff1);
-    //    System.out.println("뺼셈2" + diff2);
-    //    System.out.println("곱셈" + product);
-    //    System.out.println("나눗셈" + qout);
-    //    System.out.println("나머지" + remainder);
+//        int number1 = 10;
+//        int number2 = 3;
+//
+//        int sum = number1 + number2; // 13
+//        int diff1 = number1 - number2; // 7
+//        int diff2 = number2 - number1; // -7
+//
+//        int product = number1 * number2;
+//        int qout = number1 / number2;
+//        int remainder = number1 % number2;
+//
+//        System.out.println("덧셈" + sum);
+//        System.out.println("뺄셈1" + diff1);
+//        System.out.println("뺼셈2" + diff2);
+//        System.out.println("곱셈" + product);
+//        System.out.println("나눗셈" + qout);
+//        System.out.println("나머지" + remainder);
 
-    //    byte a = 1;
-    //    byte b = 1;
-    //    byte c = a + b;
-    //    //해결방법
-    //    int c = a + b;
-    //    int c =(int) a + b;  //강타입 언어이므로 타입을 정확하게 정해야 한다.
+//        byte a = 1;
+//        byte b = 1;
+//        byte c = a + b;
+//        //해결방법
+//        int c = a + b;
+//        int c =(int) a + b;  //강타입 언어이므로 타입을 정확하게 정해야 한다.
 
-    //    int a = 10;
-    //    int b = 4;
-    //    int c = a/b; //2  정수이므로 2.5 아닌 2 나오게 됨
-    //    double d = a/b;  //2로 먼저 정수화를 하고 이후에 2.0이 나오게 됨
-    //
-    //    //2.5를 결과물로 얻기 위해서는
-    //    double d = (double) a/b;
+//        int a = 10;
+//        int b = 4;
+//        int c = a/b; //2  정수이므로 2.5 아닌 2 나오게 됨
+//        double d = a/b;  //2로 먼저 정수화를 하고 이후에 2.0이 나오게 됨
+//
+//        //2.5를 결과물로 얻기 위해서는
+//        double d = (double) a/b;
 
     //    char c1 = 'A' + 1;  //A 유니코드 65번
     //    char c2 = 'A';

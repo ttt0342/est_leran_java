@@ -26,7 +26,6 @@ public class Java_240603_4 {
         ((a > b) ? "a is greater than b" : (a < b) ? "a is less than b" : "a and b are equal");
     System.out.println(number);
 
-    // System.out.println((a>b)?"a is greater than b":(a == b)?"a and b are equal":"a is less than
-    // b");
+     System.out.println((a>b)?"a is greater than b":(a == b)?"a and b are equal":"a is less than b");
   }
 }

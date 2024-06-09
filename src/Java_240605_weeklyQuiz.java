@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-// 실행화면 캡처해서 첨부하기
 public class Java_240605_weeklyQuiz {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
@@ -61,7 +60,6 @@ public class Java_240605_weeklyQuiz {
           break;
         }
       }
-      scanner.close();
-    }
+    } scanner.close();
   }
 }

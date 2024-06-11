@@ -1,4 +1,4 @@
-public class Test8 implements TestInterface_240530 {
+public class Test8 implements Test_240530_TestInterface {
     public void main(String[] args){
 //        int a = 10; //데이터
         test();     //행동

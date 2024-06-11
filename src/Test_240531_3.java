@@ -1,4 +1,4 @@
-public class Test_340531_3 {
+public class Test_240531_3 {
   public static void main(String[] args) {
     //    int positive = 10;
     //    int negative = -10;

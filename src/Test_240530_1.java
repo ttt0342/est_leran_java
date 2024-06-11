@@ -1,4 +1,4 @@
-public class Test {
+public class Test_240530_1 {
 
   public static void main(String[] args) {
     /*int a = 1;

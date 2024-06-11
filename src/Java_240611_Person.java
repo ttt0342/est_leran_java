@@ -47,7 +47,4 @@ public class Java_240611_Person {
     public void cheating(Java_240611_Student java240611Student){
         java240611Student.levelDown();
     }
-
-
-
 }

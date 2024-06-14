@@ -1,13 +1,13 @@
 public class java_240613_1 {
   public static void main(String[] args) {
-    //    Java_240613_inheritB java240613InheritB = new Java_240613_inheritB();
+        Java_240613_inheritB java240613InheritB = new Java_240613_inheritB();
 
-    // inherit A,B
-    //    java240613InheritB.field2 = "필드2";
-    //    java240613InheritB.method2();
-    //
-    //    java240613InheritB.field1 = 100;
-    //    java240613InheritB.method1();
+     //inherit A,B
+//        java240613InheritB.field2 = "필드2";
+//        java240613InheritB.method2();
+//
+//        java240613InheritB.field1 = 100;
+//        java240613InheritB.method1();
 
     //  java240613InheritB.bank();
     //  java240613InheritB.bank2();
@@ -18,8 +18,8 @@ public class java_240613_1 {
     //    //dog에는 없으나 상속받아서 사용할 수 있다.
     //    //animal은 가지고 있다는 것 유추 가능
     //
-    //    java240613Dog.sleep();
-    //    java240613Dog.sleep(100);
+//        java240613Dog.sleep();
+//        java240613Dog.sleep(100);
     //    // 오버로딩 - 이름이 같아도 파라미터(매개변수)가 다르기 때문에 다른 함수로 인식한다.
     //    // 오버로딩 = 같은 함수명이라도 파라미터가 다르면 다른 함수로 인식힌다.
 

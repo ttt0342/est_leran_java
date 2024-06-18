@@ -7,9 +7,5 @@ public class Java_240617_3 {
     System.out.println(kiaCar.getTier() + "입니다.");
     System.out.println(kiaCar.showEngine() + "입니다.");
     System.out.println(kiaCar.amountNavi() + "원 입니다.");
-//    kiaCar.amountNavi();
-//    kiaCar.getTier();
-//    kiaCar.showEngine();
-
   }
 }

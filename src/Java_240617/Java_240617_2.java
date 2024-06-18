@@ -16,6 +16,7 @@ public class Java_240617_2 {
     impleC.methodA();
     impleC.methodB();
     impleC.methodC();
+    impleC.ShowA(); //디폴트 인터페이스
 
     //impleC는 C를 상속받음으로써 A. B, C를 전부 사용할 수 있다.
   }

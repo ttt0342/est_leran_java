@@ -9,8 +9,11 @@ public class Clothing extends Product{
         this.size = size;
     }
 
+    public String getSize() {
+        return size;
+    }
 
-//    @Override
+//        @Override
 //    public double calculatePrice() {
 //        if(size >= L){
 //            return getPrice() * 1.1;

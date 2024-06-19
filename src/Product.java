@@ -3,7 +3,7 @@ public class Product {
     private double price;
     private int stock;
 
-    public Product(String name, double price, int stock) {
+    public Product(String name, int price, int stock) {
         this.name = name;
         this.price = price;
         this.stock = stock;
@@ -36,4 +36,10 @@ public class Product {
     public double calculatePrice() {
         return price;
     }
+
+    public void addProduct(){}
+    public void removeProduct(){}
+    public void displayProduct(){}
+
+
 }

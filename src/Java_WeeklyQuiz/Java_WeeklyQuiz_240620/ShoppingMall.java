@@ -1,4 +1,4 @@
-package Java_WeeklyQuiz_240620;
+package Java_WeeklyQuiz.Java_WeeklyQuiz_240620;
 
 public class ShoppingMall {
   public static void main(String[] args) {

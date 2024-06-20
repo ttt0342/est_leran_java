@@ -1,4 +1,4 @@
-package Java_240605;
+package Java_WeeklyQuiz.Java_WeeklyQuiz_240605;
 
 import java.util.Scanner;
 

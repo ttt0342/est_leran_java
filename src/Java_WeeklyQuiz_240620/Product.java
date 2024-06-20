@@ -1,4 +1,4 @@
-package Java_WeeklyQuiz;
+package Java_WeeklyQuiz_240620;
 
 public class Product {
   private String name;

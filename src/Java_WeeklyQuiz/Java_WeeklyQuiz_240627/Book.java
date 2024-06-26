@@ -1,4 +1,4 @@
-package Java_WeeklyQuiz_240627;
+package Java_WeeklyQuiz.Java_WeeklyQuiz_240627;
 
 public class Book {
     private String title;
